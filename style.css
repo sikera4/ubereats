@@ -1,0 +1,234 @@
+.wrapper {
+    background-color: #FFFFFF;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+.logo {
+    width: 120px;
+    height: 12px;
+}
+.headercontent {
+    box-shadow: 0px 0px 16px 0px rgba(38, 38, 38, 0.16);
+}
+.signin {
+    padding: 16px 0;
+    padding-right: 16px;
+}
+.searchbar {
+    padding-top: 128px;
+}
+input {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgba(117, 117, 117, .3);
+    width: 100%;   
+}
+input[type='text'] {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(98, 98, 98, 1)
+}
+input::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(98, 98, 98, 0.5)
+}
+input:focus {
+    outline: none;
+}
+.header {
+    margin-top: 56px;
+    margin-bottom: 16px;
+}
+.hr {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+}
+.restphoto {
+    height: 256px;
+    width: 100%;
+}
+
+.restname {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+    padding-top: 16px;
+}
+.info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+    padding: 4px 0;
+}
+.time {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1D1D1D;
+    padding-bottom: 20px;
+}
+.card {
+    margin:0 0 16px 0;
+}
+.card:active {
+    background: rgba(117, 117, 117, 0.04);
+}
+footer {
+    background-color: #262626;
+    margin-top: 80px;
+}
+.footlogo {
+    padding-top: 56px;
+    padding-bottom: 40px;
+}
+.logobox {
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    margin-bottom: 32px;
+}
+.langchange {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgba(59, 59, 59, 1);
+    border-radius: 2px;
+    overflow: hidden;
+    margin-bottom: 33px;
+}
+.wrld {
+    padding: 12px 16px;
+}
+.select {
+    padding: 12px 0;
+    width: 120%;
+    background:url('images/arrow.svg') no-repeat;
+    background-position: 95% center;
+}
+select {
+    width: 120%;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    color:rgba(255, 255, 255, 1);
+    outline: 0;
+}
+option {
+    background-color:rgba(59, 59, 59, 1);
+    border-radius: 2px;
+    outline: 0;
+    border-color:rgba(59, 59, 59, 1);
+}
+.cage {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #49A144;
+}
+.ubereats {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.icons {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #262626;
+}
+.scndcol {
+    padding-top: 7px;
+}
+.thrdcol {
+    padding-bottom: 17px;
+    padding-top: 7px;
+}
+.social {
+    padding-bottom: 55px;
+}
+@media screen and (max-width: 767px) {
+    .social {
+        padding-bottom: 40px;
+    }
+}
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    padding-bottom: 23px;
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+
+.eshops {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    border-top: 1px solid rgba(255, 255, 255, .4);
+    padding-left: 0;
+    padding-right: 0;
+}
+.eshop1 {
+    width: 120.66px;
+    height: 40px;
+    padding-right: 20px;
+}
+.eshop2 {
+    width: 135px;
+    height: 40px;
+    padding-left: 20px;
+}
+.lttltxt {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    padding: 12px 0;
+}
+.bottom {
+    padding: 28px 0;
+}
+
+
+
