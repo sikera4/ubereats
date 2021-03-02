@@ -44,6 +44,7 @@
     border: 1px solid rgba(117, 117, 117, 0.2);
     box-sizing: border-box;
     margin-bottom: 47px;
+    height: 160px;
 }
 .social {
     padding-bottom: 55px;
@@ -156,15 +157,15 @@
     background: rgba(117, 117, 117, 0.04);
 }
 .leftside {
-    padding: 16px 0 16px 16px;
+    padding: 15px 0 15px 15px;
     display: flex;
     flex-direction: column;
 }
 .leftsideone {
-    padding: 16px 0 16px 16px;
+    padding: 15px 0 15px 15px;
     display: flex;
     flex-direction: column;
-   justify-content: space-between;
+    justify-content: space-between;
 }
 .dish {
     font-size: 16px;
@@ -185,7 +186,7 @@
 }
 .dishphoto {
     width: 170px;
-    height: 100%;
+    height: 160px;
 }
 .flex {
     display: flex;
