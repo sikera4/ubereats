@@ -1,5 +1,14 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 .wrapper {
     background-color: #FFFFFF;
+    width: 100%;
+    
 }
 .fixed {
     position: fixed;
@@ -50,6 +59,9 @@
     padding-bottom: 55px;
 }
 @media screen and (max-width: 767px) {
+    .wrapper {
+        margin-right: 0;
+    }
     .hero {
         width: 100%;
         padding-bottom: 0;
